@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{geometry}
+
+\geometry{a4paper, margin=1in}
+
+\title{Contextual Target-Specific Stance Detection on Twitter: Dataset and Method}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Paper Information}
+\begin{itemize}
+    \item \textbf{Paper link}: \url{https://doi.org/10.1109/ICDM58522.2023.00045}
+    \item \textbf{Reviewer}: Juan José Viafara Carabali
+    \item \textbf{Categories}: Polarization, Data
+\end{itemize}
+
+\section*{Addressed Problem}
+How to detect users' stances toward COVID-19 vaccination on Twitter?
+
+\section*{Main Contribution}
+A contextual model that leverages entire Twitter conversations, rather than individual tweets, to infer stances.
+
+\section*{Methodology Comments}
+The study uses Contextual Multi-Head Attention, which processes both the content of each tweet and the relationships within conversations to improve stance detection.
+
+\section*{General Description}
+This paper presents a dataset and a method to identify positions (favor, against, or neither) towards Covid vaccination of a twitter post using as context the conversation in which that tweet originated, which increased the F1 evaluation metric by 25 percentage points.
+
+\section*{Significance for the Project}
+The model and dataset proposed could enhance stance detection in polarized discussions, such as COVID-19 vaccination, providing useful insights for analyzing opinions and identifying polarization in social media.
+
+\end{document}
